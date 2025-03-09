@@ -1,0 +1,3 @@
+#script to move cds files from their individual directory into the current directory
+for file in */*_cds; do echo "Renaming "$file" "./${file%/*}_cds"" mv "$file" "./${file%/*}_cds"; done
+#remove echo after testing

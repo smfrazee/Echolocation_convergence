@@ -1,0 +1,4 @@
+#script to rename files based on the name of the directory they're in
+for file in */cds_from_genomic.fna; do echo "Renaming "$file" "${file%/*}/${file%/*}_cds"" mv -- "$file" "${file%/*}/${file%/*}_cds"; done
+#for file in *directory/file name; do mv file name to directory/directoryname + cds
+#remove echo once you've checked it

@@ -1,0 +1,12 @@
+#!/bin/bash
+#script for running faTrans to translate from nucleotide to amino acid
+#make sure to run conda activate osx_env first
+#faTrans in.fa out.fa
+package_name="faTrans"
+input_dir="faTrans_input"
+output_dir="faTrans_out"
+for input_file in "$input_dir"/*; do 
+	output_file="$output_dir/$(basename "$input_file")"
+	faTrans "$input_file" "$output_file"
+	echo "Output written to $output_file";
+	done

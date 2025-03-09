@@ -1,0 +1,4 @@
+#code to rename files from accession names to binomial name from columns in different file
+while read a b c d e f g h i j k l m n; do mv "$e" "$a"; done < data_summary_new.tsv
+while read letters corresponding to each column, do mv "$column with old name" "column with new name"; done < file_with_names
+#troubleshooting: any empty files have to be accounted for
