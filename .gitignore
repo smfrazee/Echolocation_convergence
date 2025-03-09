@@ -50,3 +50,6 @@ rsconnect/
 
 # results
 results/*
+
+#data
+data/*
