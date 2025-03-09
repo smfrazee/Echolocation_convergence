@@ -1,7 +1,7 @@
 # **Convergence of mammalian echolocation**
 ## **Overview**
 This is the main repository for my project to detect convergence in echolocating mammals. This directory contains files for:
-* [Data](https://github.com/smfrazee/Echolocation-convergence/tree/main/data)
+* Data
 * [Code](url)
 * Results
 * Figures
